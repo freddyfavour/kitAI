@@ -1,15 +1,16 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Inter } from 'next/font/google'; // Changed from Geist
+import { Inter as Inter_Mono } from 'next/font/google'; // Using Inter for mono as well for consistency, or you can pick another mono
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const interSans = Inter({ // Changed from geistSans
+  variable: '--font-inter-sans', // Changed variable name
   subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const interMono = Inter_Mono({ // Changed from geistMono
+  variable: '--font-inter-mono', // Changed variable name
   subsets: ['latin'],
 });
 
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${interSans.variable} ${interMono.variable} antialiased`}>
         {children}
         <Toaster />
       </body>
