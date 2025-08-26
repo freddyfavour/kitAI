@@ -6,7 +6,6 @@
 Kit is an intelligent kitchen assistant application designed to help users discover new recipes based on the ingredients they have on hand, their dietary preferences, and their desired cooking vibe. Leveraging the power of generative AI, Kit provides personalized recipe suggestions, complete with ingredients, step-by-step instructions, nutritional information, and even ingredient swap tips.
 
 ## Features
-
 -   **AI-Powered Recipe Generation**: Enter your available ingredients, and Kit will generate a creative recipe for you.
 -   **Dietary Customization**: Specify dietary restrictions (e.g., keto, vegetarian, gluten-free), and Kit will tailor recipes accordingly.
 -   **Cooking Vibe Matching**: Tell Kit if you're looking for a "fancy dinner," "quick lunch," or "comfort food," and it will match the recipe style.
